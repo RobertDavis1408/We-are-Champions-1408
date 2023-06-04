@@ -1,0 +1,211 @@
+/* fonts
+font-family: 'Josefin Sans', sans-serif;/
+*/
+
+html, body {
+    margin: 0;
+    background-color: black;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.hero {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    max-width: 320px;
+    
+}
+
+img {
+    width: 90px;
+    height: auto;
+    margin: 40px auto 15px auto;
+}
+
+/* Input fields */
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+    gap: 10px;
+}
+
+textarea {
+    background: #444059;
+    border-radius: 8px;
+    resize: none;
+    padding: 10px 15px;
+}
+
+.endorsement-input{
+    max-width: 317px;
+    height: 118px;
+}
+
+.to-from-input-container{
+    display: flex;
+    gap: 10px;
+}
+
+.to-from-input{
+  margin: 0;
+  flex-wrap: wrap;  
+}
+
+/* Text */
+
+h1,
+h2,
+h3 {
+    margin: 0;
+    text-align: center;
+    color: white 
+}
+
+h1 {
+  
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 25px;  
+}
+
+h2 {
+    margin-bottom: 5px;
+}
+
+h3 {
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px; 
+}
+
+p {
+    width: 286px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #1B1924;
+}
+
+
+
+/* Button and Icon */
+
+button {
+    margin: 0;
+    width: 322px;
+    height: 61px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+    text-align: center;
+    color: #04131C;
+    background: #28A9F1;
+    border-radius: 8px;
+    padding-top: 8px;  
+}
+
+button:focus,
+textarea:focus {
+    outline: none;
+}
+
+button:hover,
+button:active {
+    cursor: pointer;
+}
+
+i{
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.fa-heart {
+    color: #000000;
+} 
+ 
+.liked {
+    color: red;
+} 
+
+/* Endorsements styling */
+
+.endorsements-container {
+    margin: 0 auto;
+    color: black;
+    background-color: black;
+    padding: 0;
+    max-width: 317px;
+} 
+
+.endorsement-list {
+    margin: 10px auto;
+    max-width: 317px;
+}
+
+.endorsement-inner {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    padding:10px 10px 0 10px;
+    align-items: flex-start;
+    color: black;
+    background-color: #FFFFFF;
+    width: 297px;
+    
+}
+
+.users {
+    height: 15px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #1B1924;
+}
+
+.endorsement-likes {
+    display: flex;
+    margin: 5px 0;
+    justify-content: space-between;
+    width: 300px;
+    
+}
+
+.endorsement-detail {
+    display: flex;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    gap: 5px;
+    margin-right: 2px
+}
+ 
+
+    
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    margin: 0 auto;
+}
+
+ul li {
+    font-size: 20px;
+    flex-grow: 1;
+    text-align: center;
+    color: black;
+    margin: 7px 0;
+} 
+
+
